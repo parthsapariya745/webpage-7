@@ -1,0 +1,409 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.bg{
+    width: 100%;
+    height: 549vh;
+    background-color: white;
+}
+/* heroimg */
+.bg .heroimg{
+    width: 100%;
+    height: 115vh;
+    background-image: url(./Assets/heroimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-box-shadow: inset 10px 10px 5px 500px rgba(0,0,0,0.25);
+    -moz-box-shadow: inset 10px 10px 5px 500px rgba(0,0,0,0.25);
+    box-shadow: inset 10px 10px 5px 500px rgba(0,0,0,0.25);
+}
+/* navbar */
+.bg .heroimg .nav{
+    width: 100%;
+    height: 110px;
+    background-color: #F7E5D2;
+    position: fixed;
+    padding-inline: 40px;
+    display: flex;
+}
+.bg .heroimg .nav .navlogo{
+    height: inherit;
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+.bg .heroimg .nav .navlogo h1{
+    font-weight: 500;
+    position: relative;
+    bottom: 12px;
+    cursor: pointer;
+}
+#font{
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-size: 38px;
+}
+.bg .heroimg .nav .navlogo sup{
+    font-size: 16px;
+    font-family: "Playfair Display", serif;
+    font-weight: 300;
+    position: relative;
+    bottom: 1px;
+}
+.bg .heroimg .nav .navlogo sub{
+    font-family: "Playfair Display", serif;
+    font-size: 42px;
+    color: #60695D;
+    position: relative;
+    right: 21px;
+    top: 8px;
+    font-weight: 300;
+}
+.bg .heroimg .nav .navoption{
+    height: inherit;
+    width: 34%;
+    margin-left: 43%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bg .heroimg .nav .navoption a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    transition: 0.4s;
+}
+.bg .heroimg .nav .navoption a:hover{
+    color: #60695D;
+    transition: 0.4s;
+}
+.bg .heroimg .nav .navlog{
+    height: inherit;
+    width: 11%;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+}
+.bg .heroimg .nav .navlog p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #403E36;
+}
+.bg .heroimg .nav .navlog p:hover{
+    color: #8d928b;
+    cursor: pointer;
+}
+.bg .heroimg .nav .navlog .user{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: 10px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.bg .heroimg .nav .navlog .user i{
+    color: #F7E5D2;
+    font-size: 18px;
+}
+#gap{
+    padding-left: 23px;
+}
+.bg .heroimg h3{
+    padding-top: 300px;
+    color: white;
+    font-weight: 400;
+    padding-left: 70px;
+}
+#fontdiff{
+    color: white;
+    font-weight: 700;
+    padding-left: 70px;
+    padding-top: 30px;
+    font-size: 70px;
+    font-family: 'playfair display', serif;
+}
+.bg .heroimg .btngroup{
+    height: 55px;
+    width: 350px;
+    margin-left: 70px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.bg .heroimg .btngroup button{
+    height: inherit;
+    width: 157px;
+    background-color: transparent;
+    border: 1.5px solid white;
+    color: white;
+    font-size: 15px;
+    transition: 0.3s;
+}
+.bg .heroimg .btngroup button:hover{
+    background-color: #60695D;
+    cursor: pointer;
+    transition: 0.3s;
+}
+/* hotel dtl */
+.bg .hoteldtl{
+    width: 100%;
+    height: 70px;
+    background-color: #60695D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg .hoteldtl h3{
+    color: white;
+    font-weight: 400;
+}
+/* mainsection */
+.bg .main1{
+    width: 100%;
+    height: 82vh;
+    display: flex;
+}
+.bg .main1 .mainleft{
+    height: inherit;
+    width: 50%;
+    padding-inline: 160px;
+    padding-block: 130px;
+}
+.bg .main1 .mainleft h1{
+    font-family: 'playfair display', serif;
+    font-size: 70px;
+}
+.bg .main1 .mainleft h3{
+    font-weight: 300;
+    padding-top: 15px;
+}
+.bg .main1 .mainleft p{
+    font-size: 15px;
+    padding-top: 40px;
+    font-weight: 300;
+    line-height: 28px;
+}
+.bg .main1 .mainleft button{
+    margin-top: 35px;
+    height: 50px;
+    width: 150px;
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: 15px;
+    font-weight: 300;
+    transition: 0.4s;
+}
+.bg .main1 .mainleft button:hover{
+    background-color: #60695D;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.bg .main1 .mainright{
+    height: inherit;
+    width: 50%;
+}
+.bg .main1 .mainright img{
+    height: 100%;
+    width: 100%;
+}
+.bg .main2{
+    width: 100%;
+    height: 60vh;
+    background-color: #FBF2E8;
+}
+.bg .main2 h1{
+    font-family: 'playfair display', serif;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 70px;
+}
+.bg .main2 .addtime{
+    width: 42%;
+    height: 135px;
+    margin-left: 29%;
+    margin-top: 50px;
+    display: flex;
+}
+.bg .main2 .addtime .addbox{
+    height: inherit;
+    width: 50%;
+    border-right: 1px solid black;
+}
+.bg .main2 .addtime .addbox .add{
+    height: inherit;
+    width: 56%;
+    text-align: center;
+}
+.bg .main2 .addtime .addbox .add h2{
+    font-family: 'playfair display', serif;
+    font-size: 27px;
+    font-weight: 400;
+}
+.bg .main2 .addtime .addbox .add p{
+    color: #656260;
+    font-size: 15px;
+    padding-top: 28px;
+    font-weight: 300;
+}
+.bg .main2 .addtime .timebox{
+    height: inherit;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+.bg .main2 .addtime .timebox .time{
+    height: inherit;
+    width: 58%;
+    text-align: center;
+}
+.bg .main2 .addtime .timebox .time h2{
+    font-family: 'playfair display', serif;
+    font-size: 27px;
+    font-weight: 400;
+}
+.bg .main2 .addtime .timebox .time p{
+    color: #656260;
+    font-size: 15px;
+    padding-top: 28px;
+    font-weight: 300;
+}
+.bg .imggroup{
+    width: 100%;
+    height: 410px;
+    display: flex;
+}
+.bg .imggroup img{
+    height: inherit;
+    width: 20%;
+}
+/* footer */
+.bg .footer{
+    width: 100%;
+    height: 57vh;
+    background-color: #404D3C;
+    margin-top: 0.5px;
+    display: flex;
+    align-items: center;
+}
+.bg .footer .fotfir{
+    width: 20%;
+    height: 50%;
+    margin-left: 100px;
+}
+.bg .footer .fotfir h2{
+    color: white;
+    font-family: 'playfair display', serif;
+    font-size: 26.5px;
+    font-weight: 500;
+}
+.bg .footer .fotfir p{
+    color: white;
+    font-size: 15px;
+    padding-top: 30px;
+    line-height: 28px;
+    font-weight: 300;
+}
+.bg .footer .fotfir label{
+    color: white;
+    position: relative;
+    top: 15px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.bg .footer .fotfir .input{
+    height: 42px;
+    width: 303px;
+    margin-top: 20px;
+    display: flex;
+}
+.bg .footer .fotfir .input input{
+    height: inherit;
+    width: 68%;
+    background-color: transparent;
+    border: 1.5px solid white;
+    outline: none;
+}
+.bg .footer .fotfir .input input:hover{
+    background-color: #60695D;
+}
+.bg .footer .fotfir .input button{
+    height: inherit;
+    width: 32%;
+    background-color: transparent;
+    border: 1.5px solid white;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    transition: 0.4s;
+}
+.bg .footer .fotfir .input button:hover{
+    background-color: #60695D;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.bg .footer .fotsec{
+    height: 50%;
+    width: 190px;
+    margin-left: 200px;
+}
+.bg .footer .fotsec h2{
+    color: white;
+    font-family: 'playfair display', serif;
+    font-size: 26.5px;
+    font-weight: 500;
+}
+.bg .footer .fotsec p{
+    padding-top: 31px;
+    color: white;
+    font-size: 14.5px;
+    font-weight: 300;
+}
+#hover{
+    cursor: pointer;
+}
+#line{
+    padding-top: 36px;
+    line-height: 27px;
+}
+.bg .footer .fottrd{
+    height: 50%;
+    width: 16%;
+    margin-left: 310px;
+    position: relative;
+    bottom: 28px;
+}
+.bg .footer .fottrd h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 82px;
+}
+.bg .footer .fottrd h1 a{
+    text-decoration: none;
+    color: white;
+    font-family: 'playfair display', serif;
+}
+.bg .lastline{
+    width: 100%;
+    height: 36px;
+    background-color: #FBF2E8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg .lastline p{
+    font-size: 13px;
+    font-weight: 300;
+}
+.bg .lastline p u{
+    cursor: pointer;
+}
